@@ -10,7 +10,7 @@ import streamlit as st
 
 
 
-data=pd.read_excel("C:\\Users\hp\Documents\Cours ISCAE\Python\Bitcoin_data.xlsx")
+data=pd.read_excel("Bitcoin_data.xlsx")
 
 data["Date"]=pd.to_datetime(data["Date"])
 data.drop(['Unnamed: 0'], axis=1, inplace=True)
