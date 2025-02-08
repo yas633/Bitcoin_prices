@@ -4,6 +4,7 @@ Created on Fri Feb  7 19:21:07 2025
 
 @author: hp
 """
+pip install openpyxl
 import pandas as pd
 import streamlit as st
 #import matplotlib.pyplot as plt
